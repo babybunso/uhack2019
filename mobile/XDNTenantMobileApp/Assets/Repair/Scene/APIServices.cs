@@ -21,7 +21,7 @@ public class APIServices : MonoBehaviour
         StartCoroutine(getCoin());   
     }
 
-    IEnumerator getCoin()
+    public IEnumerator getCoin()
     {
         var json = "{\"method\": \"getaddressbalances\",\"params\": [\"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\"],\"id\": \"83307641-1563603597\",\"chain_name\": \"dlt_xdn\"}";
         var uwr = new UnityWebRequest(endpoint, "POST");
@@ -55,7 +55,7 @@ public class APIServices : MonoBehaviour
 
         Debug.Log("UserID: " + userID);
         
-        coinAmount.text = "Coin Balance : "+ userID;
+        coinAmount.text = userID;
     }
 
     

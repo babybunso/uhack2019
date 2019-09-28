@@ -1,0 +1,16 @@
+﻿{
+    "results": [
+      {
+        "image_url": "feed_item_1",
+        "reportDetails": "Busted Light At the Ground Floor Hallway"
+      },
+      {
+        "image_url": "feed_item_2",
+        "reportDetails": "Leaking water at the 2nd floor hallway near the elevator"
+      },
+      {
+        "image_url": "feed_item_3",
+        "reportDetails": "Blinking light the 11th floor hallway"
+      }
+    ]
+}
