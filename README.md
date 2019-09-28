@@ -5,8 +5,8 @@
 
 
 ###### Challenges:
-<sup>(1)</sup> **HOW MIGHT WE** use new technologies to **_AUTOMATE_** service, repairs, and construction requests?<br />
-<sup>(2)</sup> **HOW MIGHT WE** use new technologies to **_AUTOMATE_** service, repairs, and construction requests?
+<sup>(1)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE_** service, repairs, and construction requests?<br />
+<sup>(2)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE AND INCENTIVISE_** reporting repairs?
 
 
 ###### Solution (MVP):
