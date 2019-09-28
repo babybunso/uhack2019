@@ -4,17 +4,15 @@
 **Team XDN**
 
 
-###### Challenge:
-**HOW MIGHT WE**<sup>(5)</sup> use new technologies to **_AUTOMATE_** service, repairs, and construction requests?
+###### Challenges:
+<sup>(1)</sup> **HOW MIGHT WE** use new technologies to **_AUTOMATE_** service, repairs, and construction requests?<br />
+<sup>(2)</sup> **HOW MIGHT WE** use new technologies to **_AUTOMATE_** service, repairs, and construction requests?
 
 
-###### Short Description:
-**XDN-DLT:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
+###### Solution (MVP):
+**relc_h_:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
+<img src="images/assets/app_icon.png" />
 
-
-###### Long Description:
-- **_Application of Technology._** Permissioned Blockchain <a href="https://www.multichain.com/">(Multichain)</a>; and Cloud Computing <a href="https://aws.amazon.com/">(AWS)</a><br /><br />
-- **_Solution._** A Permissioned Blockchain-based Platform (<a href="https://github.com/babybunso/uhack2019/tree/master/DLT_multichain/multichain-web-demo">XDN Coin</a>, <a href="https://github.com/babybunso/uhack2019/tree/master/xdn_mobile_wallet">XDN Mobile Wallet (Android and iOS)</a>, <a href="https://github.com/babybunso/uhack2019/tree/master/dashboard">CMS/Dashboard</a>, <a href="https://github.com/babybunso/uhack2019/tree/master/DLT_multichain">Permissioned Blockchain Network</a>) for Automated Reporting and Requisition of Services
 
 <br /><br />
 ###### XDN-Network Web Links and Demos:
@@ -36,6 +34,8 @@
 
 <br /><br />
 ###### Demo Screens:
+
+<img src="images/sc_cms_engineer_01.png" width=750 />
 
 <img src="images/sc_demo.png" width=750 />
 
