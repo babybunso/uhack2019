@@ -269,7 +269,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"method\":\"getinfo\",\"params\":[],\"id\":\"10491388-1563593076\",\"chain_name\":\"dlt_xdn\"}"
+					"raw": "{\n\t\"method\":\"getinfo\",\n\t\"params\":[],\n\t\"id\":\"10491388-1563593076\",\n\t\"chain_name\":\"dlt_xdn\"\n}"
 				},
 				"url": {
 					"raw": "18.140.54.91:7338?",
@@ -344,15 +344,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"method\": \"getaddressbalances\",\n    \"params\": [\n        \"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\"\n    ],\n    \"id\": \"83307641-1563603597\",\n    \"chain_name\": \"dlt_xdn\"\n}"
+					"raw": "{\n    \"method\": \"getaddressbalances\",\n    \"params\": [\"1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm\"],\n    \"id\": \"83307641-1563603597\",\n    \"chain_name\": \"dlt_xdn\"\n}"
 				},
 				"url": {
-					"raw": "18.140.54.91:7338?",
+					"raw": "http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:7338?",
+					"protocol": "http",
 					"host": [
-						"18",
-						"140",
-						"54",
-						"91"
+						"ec2-18-140-54-91",
+						"ap-southeast-1",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "7338",
 					"query": [
@@ -419,15 +421,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"method\":\"getmultibalances\",\"params\":[],\"id\":\"30474978-1563651637\",\"chain_name\":\"dlt_xdn\"}"
+					"raw": "{\n\t\"method\":\"getmultibalances\",\n\t\"params\":[],\n\t\"id\":\"30474978-1563651637\",\n\t\"chain_name\":\"dlt_xdn\"\n}"
 				},
 				"url": {
-					"raw": "18.140.54.91:7338?",
+					"raw": "http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:7338?",
+					"protocol": "http",
 					"host": [
-						"18",
-						"140",
-						"54",
-						"91"
+						"ec2-18-140-54-91",
+						"ap-southeast-1",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "7338",
 					"query": [
@@ -469,8 +473,8 @@
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"type": "text",
-						"value": "application/json"
+						"value": "application/json",
+						"type": "text"
 					},
 					{
 						"key": "au",
@@ -494,15 +498,22 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"method\":\"sendassetfrom\",\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\",\"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\"xdncoin\",1000,0,\"{\\\"payment info\\\":\\\"from rodel to goleng\\\"}\"],\"id\":\"63219905-1563605760\",\"chain_name\":\"dlt_xdn\"}"
+					"raw": "{\n\t\"method\":\"sendassetfrom\",\n\t\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\",\"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\t\"xdncoin\",1000,0,\"{\\\"payment info\\\":\\\"from rodel to goleng\\\"}\"],\n\t\"id\":\"63219905-1563605760\",\n\t\"chain_name\":\"dlt_xdn\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
-					"raw": "18.140.54.91:7338?",
+					"raw": "http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:7338?",
+					"protocol": "http",
 					"host": [
-						"18",
-						"140",
-						"54",
-						"91"
+						"ec2-18-140-54-91",
+						"ap-southeast-1",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "7338",
 					"query": [
@@ -569,15 +580,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"method\":\"listaddresstransactions\",\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\"],\"id\":\"75645972-1563607149\",\"chain_name\":\"dlt_xdn\"}"
+					"raw": "{\n\t\"method\":\"listaddresstransactions\",\n\t\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\"],\n\t\"id\":\"75645972-1563607149\",\"chain_name\":\"dlt_xdn\"\n}"
 				},
 				"url": {
-					"raw": "18.140.54.91:7338?",
+					"raw": "http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:7338?",
+					"protocol": "http",
 					"host": [
-						"18",
-						"140",
-						"54",
-						"91"
+						"ec2-18-140-54-91",
+						"ap-southeast-1",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "7338",
 					"query": [
@@ -644,15 +657,17 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"method\":\"listwallettransactions\",\"params\":[],\"id\":\"36584760-1563607250\",\"chain_name\":\"dlt_xdn\"}"
+					"raw": "{\n\t\"method\":\"listwallettransactions\",\n\t\"params\":[],\"id\":\"36584760-1563607250\",\n\t\"chain_name\":\"dlt_xdn\"\n}"
 				},
 				"url": {
-					"raw": "18.140.54.91:7338?",
+					"raw": "http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:7338?",
+					"protocol": "http",
 					"host": [
-						"18",
-						"140",
-						"54",
-						"91"
+						"ec2-18-140-54-91",
+						"ap-southeast-1",
+						"compute",
+						"amazonaws",
+						"com"
 					],
 					"port": "7338",
 					"query": [
