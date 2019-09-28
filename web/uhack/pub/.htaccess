@@ -1,0 +1,7 @@
+RewriteEngine on
+
+Order allow,deny
+Allow from all
+
+RewriteCond $1 !^(index\.php|robots\.txt|npm|data|themes|ui|mods)
+RewriteRule ^(.*)$ index.php/$1 [L]

@@ -1,0 +1,27 @@
+{
+  "name": "spooflimited",
+  "version": "1.0.0",
+  "description": "Spoof Limited Black Arrow Express CAS Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Densetsu Ghem",
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "bootstrap": "^4.3.1",
+    "cookie": "^0.4.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2",
+    "nonce": "^1.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "shopify-api-node": "^2.23.0"
+  }
+}

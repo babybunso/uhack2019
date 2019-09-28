@@ -1,0 +1,3 @@
+.env
+web/uhack/.env
+web/uhack_api/api/.env
