@@ -9,7 +9,8 @@
 
 
 ###### Solution (MVP):
-**XDN-DLT:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
+<img src="images/assets/app_icon.png" />
+**relc_h_:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
 
 
 <br /><br />
