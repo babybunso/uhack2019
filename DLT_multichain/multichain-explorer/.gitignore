@@ -1,0 +1,12 @@
+*.pyc
+*.sqlite*
+tmpd
+MANIFEST
+build
+dist
+.idea
+venv*/
+*.log
+*.conf
+.directory
+!chain1.example.conf
