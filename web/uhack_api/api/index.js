@@ -1,69 +1,88 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const crypto = require('crypto');
 const querystring = require('querystring');
-const request = require('request-promise');
-const bodyParser = require('body-parser');
-const queries = require('./lib/queries');
-//var path = require('path');
+//const request = require('request-promise'),
+ const	sleep = require('await-sleep'),
+	request = require("request"),
+	bodyParser = require('body-parser');
+var queries = require('./lib/queries');
+
+const messages = {
+	NO_RECORD_FOUND : "No record found.",
+	INSERT_SUCCESS : "Successfully submitted your filed report",
+	UPDATE_SUCCESS : "Successfully updated the record"
+}
  
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: false })); 	
-/* app.use(function(req, res, next) {
-	var data = '';
-	req.setEncoding('utf8');
-	req.on('data', function(chunk) { 
-	    data += chunk;
-	});
-	req.on('end', function() {
-	    req.rawBody = data;
-	    console.log(req.url)
-	    console.log('...' + data);
-	    
-//	    console.log(req.rawBody)
-	});
-	next();
-    }); */
- 
 app.get('/', (req, res) => {
 	res.sendStatus(200);
-});
+}); 
 
-app.listen(process.env.PORT, () => {
-	console.log('I am runnng now, ' + process.env.PORT );
-});
-
-app.post('/report', (req, res) => {
+app.post('/report', async (req, res) => {
+	await   queries.reporting(body);
 	res.status(res.statusCode).send("AD");
 	//res.status(error.statusCode).send(error.error.error_description);
 });
 
 
-app.post('/commonreport', (req, res) => {
+app.post('/commonreport', async  (req, res) => {
 	let body = '';
+	let report = new Object;
+	let message = new Object;
+	let msg ='';
+	let statusCode = 200;
 
-	req.on('data', chunk => {
+	 req.on('data', chunk => {
 	    body += chunk.toString();
 	});
 
-	req.on('end', () => {
- 	    console.log(body)
-	    res.status(res.statusCode).send(body);
+	 req.on('end', () => {
+		console.log(body);
+		body = JSON.parse(body);
+		report =  queries.reporting(body);
+
+	    message = {
+		    message : messages.INSERT_SUCCESS,
+		    status : statusCode
+	    }
+
+	    res.status(statusCode).send(message);
 	});
-    
 });
 
+app.post('/personalreport', async  (req, res) => {
+	let body = '';
 	
+	let message = new Object;
+	let msg ='';
+	let statusCode = 200;
 
+	 req.on('data', chunk => {
+	    body += chunk.toString();
+	});
 
-app.post('/report2', (req, res) => {
+	 req.on('end', () => {
+		report = new Object;
 
-	collectRequestData(req, result => {
-		console.log(result);
-		res.end(`Parsed data belonging to ${result.fname}`);
-	    });
+		body = JSON.parse(body);
+		report =  queries.reporting(body);
+
+	    message = {
+		    message : messages.INSERT_SUCCESS,
+		    status : statusCode
+	    }
+
+	    res.status(statusCode).send(message);
+	});
 });
+
+
+app.listen(process.env.PORT, () => {
+	console.log('I am runnng now, ' + process.env.PORT );
+});
+
 	    
 //	res.status(res.statusCode).send("AD");
 	

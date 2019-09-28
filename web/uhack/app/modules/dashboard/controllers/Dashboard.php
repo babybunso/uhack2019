@@ -38,6 +38,7 @@ class Dashboard extends CI_Controller
 	 */
 	public function index()
 	{
+		$this->load->model('users/users_groups_model');
 		// check if database is already installed
 		// comment out these lines after installation
 		$this->load->dbutil();
@@ -46,6 +47,8 @@ class Dashboard extends CI_Controller
 			show_error('You must run the installer to use this app.');
 		}
 
+		$users = $this->users_groups_model->find_by('user_id', $this->session->userdata('user_id'));
+		$data['my_group'] = $users->group_id;
 		
 
 		

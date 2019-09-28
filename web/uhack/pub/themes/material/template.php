@@ -1,11 +1,12 @@
 <?php // Adds X-Frame-Options to HTTP header, so that page can only be shown in an iframe of the same site.
-header('X-Frame-Options: SAMEORIGIN'); // FF 3.6.9+ Chrome 4.1+ IE 8+ Safari 4+ Opera 10.5+
+// FF 3.6.9+ Chrome 4.1+ IE 8+ Safari 4+ Opera 10.5+
 $user = $this->ion_auth->user()->row();
 ?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 	<title><?php echo config_item('app_name'); ?> - <?php echo $page_heading; ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,7 +51,9 @@ $user = $this->ion_auth->user()->row();
 						<div class="navbar-header">
 							<!-- Navbar Brand -->
 							<a href="<?php echo site_url(''); ?>" class="navbar-brand d-none d-sm-inline-block">
-								<div class="brand-text d-none d-lg-inline-block"><?php echo config_item('app_name'); ?></div>
+								<div class="brand-text d-none d-lg-inline-block">
+								<img src="<?php echo site_url('themes/material/img/app_logo.png'); ?>"  style="width:50px; height:50px;"/>
+								</div>
 								<div class="brand-text d-none d-sm-inline-block d-lg-none"><?php echo implode('', array_map(function($v) { return $v[0]; }, explode(' ', config_item('app_name')))); ?></div>
 							</a>
 							
