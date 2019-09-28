@@ -1,0 +1,676 @@
+{
+	"info": {
+		"_postman_id": "fa478ea4-2b07-4cb3-8b17-c3b74a6621e2",
+		"name": "uhack_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "common report sample 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-01\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"common\",\n\t\"report\" : \"Busted Lightings in the hallway\",\n\t\"base_location\" : \"Tower 1\",\n\t\"unit_location\" : \"214\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/commonreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"commonreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "common report sample 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-02\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"common\",\n\t\"report\" : \"Water Leakage\",\n\t\"base_location\" : \"Tower 3\",\n\t\"unit_location\" : \"444\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/commonreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"commonreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "common report sample 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-01\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"common\",\n\t\"report\" : \"Elevator Malfunction\",\n\t\"base_location\" : \"Tower 2\",\n\t\"unit_location\" : \"130\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/commonreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"commonreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "personal report sample 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-01\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"personal\",\n\t\"report\" : \"Busted Light\"\n\t\"room_location\" : \"Living Room\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/personalreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"personalreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "personal report sample 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-01\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"personal\",\n\t\"report\" : \"Busted Light\"\n\t\"room_location\" : \"Comfort Room\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/personalreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"personalreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "personal report sample 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : \"19-000000-01\",\n\t\"name\" : \"Islas Pinas Condominiums\",\n\t\"type\" : \"Condominium\",\n\t\"reporter_id\", \"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\n\t\"report_type\" : \"personal\",\n\t\"report\" : \"Water Sink\"\n\t\"room_location\" : \"Kitchen Room\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://5093f362.ngrok.io/personalreport",
+					"protocol": "https",
+					"host": [
+						"5093f362",
+						"ngrok",
+						"io"
+					],
+					"path": [
+						"personalreport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 getinfo",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "au",
+						"value": "multirpcuser",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"method\":\"getinfo\",\"params\":[],\"id\":\"10491388-1563593076\",\"chain_name\":\"dlt_xdn\"}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 getaddressbalances",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "au",
+						"type": "text",
+						"value": "multirpcuser",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"method\": \"getaddressbalances\",\n    \"params\": [\n        \"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\"\n    ],\n    \"id\": \"83307641-1563603597\",\n    \"chain_name\": \"dlt_xdn\"\n}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 getmultibalances",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "au",
+						"type": "text",
+						"value": "multirpcuser",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"method\":\"getmultibalances\",\"params\":[],\"id\":\"30474978-1563651637\",\"chain_name\":\"dlt_xdn\"}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 sendassetfrom",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "au",
+						"type": "text",
+						"value": "multirpcuser",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"method\":\"sendassetfrom\",\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\",\"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\",\"xdncoin\",1000,0,\"{\\\"payment info\\\":\\\"from rodel to goleng\\\"}\"],\"id\":\"63219905-1563605760\",\"chain_name\":\"dlt_xdn\"}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 listaddresstransactions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "au",
+						"type": "text",
+						"value": "multirpcuser",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"method\":\"listaddresstransactions\",\"params\":[\"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB\"],\"id\":\"75645972-1563607149\",\"chain_name\":\"dlt_xdn\"}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13.250.99.38:7338 listwallettransactions",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "multichainrpc",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "au",
+						"type": "text",
+						"value": "multirpcuser",
+						"disabled": true
+					},
+					{
+						"key": "password",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"method\":\"listwallettransactions\",\"params\":[],\"id\":\"36584760-1563607250\",\"chain_name\":\"dlt_xdn\"}"
+				},
+				"url": {
+					"raw": "18.140.54.91:7338?",
+					"host": [
+						"18",
+						"140",
+						"54",
+						"91"
+					],
+					"port": "7338",
+					"query": [
+						{
+							"key": "rpcuser",
+							"value": "multichainrpc",
+							"disabled": true
+						},
+						{
+							"key": "rpcpassword",
+							"value": "FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
