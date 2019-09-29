@@ -10,7 +10,7 @@
 
 
 ###### Solution (MVP):
-**relc_h_:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
+**relch:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
 <img src="images/assets/app_icon.png" />
 
 
