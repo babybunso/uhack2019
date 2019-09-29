@@ -1,16 +1,18 @@
 # U-Hack 2019
 
 ###### Team Name:  
-**Team XDN**
+**Team XDN** 
 
 
-###### Challenges:
+<br /><br />
+###### The Challenges:
 <sup>(1)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE_** service, repairs, and construction requests?<br />
 <sup>(2)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE AND INCENTIVISE_** reporting repairs? <br /><br />
+<img src="images/xls1.png" width=750 />
 
-<img src="images/xls1.png" width=750 /> <br />
 
-###### Solution (MVP):
+<br /><br />
+###### The Solution (MVP):
 **relch:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
 <img src="images/assets/app_icon.png" />
 
