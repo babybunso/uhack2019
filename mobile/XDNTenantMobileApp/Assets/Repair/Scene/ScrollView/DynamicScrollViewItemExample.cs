@@ -24,28 +24,12 @@ namespace DigiFrame {
 
         void LoadWeatherDetailsByDate(int weatherIndex)
         {
-           /* List<Forecast> forecasts = WeatherAtDam.instance.GetForecast("location_name");
-            if (null != forecasts && forecasts.Count > 0)
-            {
-                Debug.Log("&&&&& DATE TIME " + forecasts[weatherIndex].Timestamp);
-                Debug.Log("&&&&&&& Rain Probability: " + forecasts[weatherIndex].RainProbability.ToString());
-                Debug.Log("&&&&&&& Rain GAILE: " + forecasts[weatherIndex].Rain.ToString());
-            }*/
+           
 
         }
 
         public void onUpdateItem( int index ) {
-            /*if (WeatherAtDam.instance.canAccessWeather)
-            {
-                List<Forecast> forecasts = WeatherAtDam.instance.GetForecast("location_name");
-                if (null != forecasts && forecasts.Count > 0)
-                {
-                    this.title.text = forecasts[index].Timestamp.ToString();
-                    Button weatherDateClick = this.weatherDate.GetComponent<Button>();
-
-                    weatherDateClick.onClick.AddListener(() => WeatherAtDam.instance.UpdateWeatherTextInfo(index, "location_name"));
-                }
-            }*/
+          
         }
     }
 }

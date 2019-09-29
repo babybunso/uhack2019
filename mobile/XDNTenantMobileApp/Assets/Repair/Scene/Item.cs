@@ -32,7 +32,22 @@
         { //Request the API
 
             ParseJob job = new ParseJob();
-            job.InData = Resources.Load<TextAsset>("reports").text;
+            if (PlayerPrefs.HasKey("BackToMain"))
+            {
+                if (PlayerPrefs.GetInt("BackToMain") == 1)
+                {
+                    job.InData = Resources.Load<TextAsset>("reports2").text;
+                }
+                else if (PlayerPrefs.GetInt("BackToMain") == 0)
+                {
+                    job.InData = Resources.Load<TextAsset>("reports").text;
+                }
+            }
+            else
+            {
+                job.InData = Resources.Load<TextAsset>("reports").text;
+            }
+            
             job.Start();
 
             yield return StartCoroutine(job.WaitFor());

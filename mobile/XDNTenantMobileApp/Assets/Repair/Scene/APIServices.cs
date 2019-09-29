@@ -14,7 +14,7 @@ public class APIServices : MonoBehaviour
     string responseToken = "";
     public Text buyResponse;
     public Text coinAmount;
-
+    
 
     private void Start()
     {
