@@ -25,7 +25,7 @@ $lang['button_edit_this']			= 'Edit This';
 
 // Index Function
 $lang['index_heading']				= 'DLT Management';
-$lang['index_subhead']				= 'List of all DLT Management';
+$lang['index_subhead']				= 'XDN Blockchain';
 $lang['index_id']			= 'ID';
 $lang['index_']			= '';
 

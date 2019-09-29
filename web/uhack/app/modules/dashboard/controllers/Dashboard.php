@@ -23,7 +23,7 @@ class Dashboard extends CI_Controller
 		$this->load->library('users/acl');
 		//$this->load->model('users/users_group', 'groups');
 		$this->load->model('users/users_groups_model', 'users_groups');
-
+		$this->load->model('reportings/reportings_model', 'reportings');
 		$this->load->language('dashboard');
 	}
 	
@@ -50,8 +50,13 @@ class Dashboard extends CI_Controller
 		$users = $this->users_groups_model->find_by('user_id', $this->session->userdata('user_id'));
 		$data['my_group'] = $users->group_id;
 		
+		//reportings
+		$data['reportings'] = $this->reportings
+					->select('*, DATE_FORMAT(reporting_created_on, "%Y") as yr, DATE_FORMAT(reporting_created_on, "%c") as m, DATE_FORMAT(reporting_created_on, "%d") as day ')
+					->where('reporting_deleted', 0)
+					->find_all();
 
-		
+	//	pr(  $data['reportings'] );
 
 		$permission = $this->acl->restrict('dashboard.dashboard.list', 'return');
 		if (!$permission) show_404();
@@ -71,7 +76,8 @@ class Dashboard extends CI_Controller
 
 		// session breadcrumb
 		$this->session->set_userdata('redirect', current_url());
-		
+		$this->template->add_js(module_js('dashboard', 'dashboard_index'), 'embed');
+
 		$this->template->write_view('content', 'dashboard_index', $data);
 		$this->template->render();
 	}

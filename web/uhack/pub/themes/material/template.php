@@ -264,6 +264,7 @@ $user = $this->ion_auth->user()->row();
 	<script src="<?php echo site_url('mods/bootstrap/js/bootstrap.min.js'); ?>"></script>
 	<script src="<?php echo site_url('mods/jquery.cookie/jquery.cookie.js'); ?>"></script>
 	<script src="<?php echo site_url('mods/alertify/lib/alertify.min.js'); ?>"></script>
+	<script src="<?php echo site_url('mods/canvasjs.min.js'); ?>"></script>
 
 	<!-- Main File-->
 	<script src="<?php echo site_url('themes/material/js/front.js'); ?>"></script>

@@ -68,7 +68,7 @@
 
 		<div class="form-group">
 			<label for="reporting_status"><?php echo lang('reporting_status')?>:</label>
-			<?php $options = create_dropdown('array', ',Active,Disabled'); ?>
+			<?php $options = create_dropdown('array', ',Open,Closed'); ?>
 			<?php echo form_dropdown('reporting_status', $options, set_value('reporting_status', (isset($record->reporting_status)) ? $record->reporting_status : ''), 'id="reporting_status" class="form-control"'); ?>
 			<div id="error-reporting_status"></div>
 		</div>

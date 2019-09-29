@@ -48,7 +48,7 @@ $(function() {
 							return full[5] + ' <span style="color:red">Urgent</span>';
 						break;
 						default:
-							return full[5] + ' ';
+							return full[5] + ' <';
 						break;
 					}
 					
