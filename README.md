@@ -37,47 +37,47 @@
 
 **Login Page**
 
-<img src="images/screenshots/01_login.jpg" width=750 />
+<img src="images/screenshots/01_login.jpg" width=750 /> <br />
 
 
 **Building Engineer Login**
 
-<img src="images/screenshots/02_engineer_login.jpg" width=750 />
+<img src="images/screenshots/02_engineer_login.jpg" width=750 /> <br />
 
 
 **Building Manager Login**
 
-<img src="images/screenshots/03_manager_login.jpg" width=750 />
+<img src="images/screenshots/03_manager_login.jpg" width=750 /> <br />
 
 
 **Operations Manager Login**
 
-<img src="images/screenshots/04_operations_login.jpg" width=750 />
+<img src="images/screenshots/04_operations_login.jpg" width=750 /> <br />
 
 
 **System Admin Login**
 
-<img src="images/screenshots/05_system_admin_login.jpg" width=750 />
+<img src="images/screenshots/05_system_admin_login.jpg" width=750 /> <br />
 
 
 **Property Map**
 
-<img src="images/screenshots/06_property_map.jpg" width=750 />
+<img src="images/screenshots/06_property_map.jpg" width=750 /> <br />
 
 
 **Reportings**
 
-<img src="images/screenshots/07_reportings.jpg" width=750 />
+<img src="images/screenshots/07_reportings.jpg" width=750 /> <br />
 
 
 **Blockchain Management**
 
-<img src="images/screenshots/08_dlt_management.jpg" width=750 />
+<img src="images/screenshots/08_dlt_management.jpg" width=750 /> <br />
 
 
 **Blockchain Explorer**
 
-<img src="images/sc_explorer.png" width=750 />
+<img src="images/sc_explorer.png" width=750 /> <br />
 
 
 
