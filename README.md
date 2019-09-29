@@ -40,12 +40,8 @@
 <br /><br />
 ###### Demo Screens (Mobile):
 
-<img src="images/assets/screen_01_start/screen_01_start.png"  width=250 />
-<img src="images/assets/screen_02_login/screen_02_login.png" width=250 />
-<img src="images/assets/screen_03_feeds/screen_03_feeds.png" width=250 />
-<img src="images/assets/screen_04_report_select/screen_04_report_select.png" width=250 />
-<img src="images/assets/screen_05_report_360/screen_05_report_360.png" width=250 />
-<img src="images/assets/screen_06_report/screen_06_common_report_01.png" width=250 />
+<img src="images/assets/screen_01_start/screen_01_start.png"  width=250 /> <img src="images/assets/screen_02_login/screen_02_login.png" width=250 /> <img src="images/assets/screen_03_feeds/screen_03_feeds.png" width=250 />
+<img src="images/assets/screen_04_report_select/screen_04_report_select.png" width=250 /> <img src="images/assets/screen_05_report_360/screen_05_report_360.png" width=250 /> <img src="images/assets/screen_06_report/screen_06_common_report_01.png" width=250 />
 
 
 
