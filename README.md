@@ -23,7 +23,7 @@
 
 <br /><br />
 ###### XDN-SPV Wallet Addresses:
-- Rodel _(a.k.a. babybunso):_ **1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB  _(Merchant Wallet)_**
+- Rodel _(a.k.a. babybunso):_ **1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB**
 - Gaile _(a.k.a. codeegoh):_ **14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr**
 - Virgem _(a.k.a. densetsughem):_ **1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm**
 
