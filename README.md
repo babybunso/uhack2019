@@ -19,7 +19,7 @@
 - **CMS / Dashboard:** <a href="https://9e451344.ngrok.io/uhack2019/xdn-cms/">https://9e451344.ngrok.io/uhack2019/xdn-cms/</a>
 - **Blockchain Explorer:** <a href="http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com:2750</a>
 - **Web Demo:** <a href="http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/?chain=default">http://ec2-18-140-54-91.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/</a>
-- **Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
+- **Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/uhack2019</a>
 
 <br /><br />
 ###### XDN-SPV Wallet Addresses:
@@ -35,11 +35,34 @@
 <br /><br />
 ###### Demo Screens:
 
-<img src="images/sc_cms_engineer_01.png" width=750 />
+**Login Page**
+<img src="images/screenshots/01_login.jpg" width=750 />
+
+**Building Engineer Login**
+<img src="images/screenshots/02_engineer_login.jpg" width=750 />
+
+**Building Manager Login**
+<img src="images/screenshots/03_manager_login.jpg" width=750 />
+
+**Operations Manager Login**
+<img src="images/screenshots/04_operations_login.jpg" width=750 />
+
+**System Admin Login**
+<img src="images/screenshots/05_system_admin_login.jpg" width=750 />
+
+**Property Map**
+<img src="images/screenshots/06_property_map.jpg" width=750 />
+
+**Reportings**
+<img src="images/screenshots/07_reportings.jpg" width=750 />
+
+**Blockchain Management**
+<img src="images/screenshots/08_dlt_management.jpg" width=750 />
+
+**Blockchain Explorer**
+<img src="images/sc_explorer.png" width=750 />
 
 <img src="images/sc_demo.png" width=750 />
-
-<img src="images/sc_explorer.png" width=750 />
 
 <img src="images/postman.png" width=750 />
 
