@@ -6,10 +6,9 @@
 
 ###### Challenges:
 <sup>(1)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE_** service, repairs, and construction requests?<br />
-<sup>(2)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE AND INCENTIVISE_** reporting repairs? 
-<br />
+<sup>(2)</sup> **HOW MIGHT WE** help the tenants and building administrators **_AUTOMATE AND INCENTIVISE_** reporting repairs? <br /><br />
+
 <img src="images/xls1.png" width=750 /> <br />
-<img src="images/xls2.png" width=750 /> <br />
 
 ###### Solution (MVP):
 **relch:** A Permissioned Blockchain-based Platform for Automated Reporting and Requisition of Services.
