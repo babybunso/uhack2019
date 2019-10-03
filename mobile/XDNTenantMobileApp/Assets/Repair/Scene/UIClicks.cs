@@ -15,15 +15,15 @@ public class UIClicks : MonoBehaviour
 
     public void Start()
     {
-        if (!PlayerPrefs.HasKey("BackToMain"))
+        if (!PlayerPrefs.HasKey("totalLike"))
         {
             likeTextNum.text = totalLike.ToString();
 
             
         }
-        if (PlayerPrefs.HasKey("BackToMain"))
+        if (PlayerPrefs.HasKey("totalLike"))
         {
-            if (PlayerPrefs.GetInt("BackToMain") == 1)
+            if (PlayerPrefs.GetInt("totalLike") > 1001)
             {
                 likeTextNum.text = PlayerPrefs.GetInt("totalLike").ToString();
             }
