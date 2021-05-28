@@ -35,7 +35,7 @@
     "nestable2": "^1.6.0",
     "popper.js": "^1.14.3",
     "select2": "^4.0.6-rc.1",
-    "tinymce": "^4.8.2"
+    "tinymce": "^5.7.1"
   },
   "keywords": [
     "uhack"
